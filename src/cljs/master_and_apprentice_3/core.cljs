@@ -1,5 +1,4 @@
 (ns master_and_apprentice_3.core)
 
-(enable-console-print!)
-
-(println "Hello, world!")
+(defn header-image []
+  [:img {:class "header_image", :src "mk3.jpg"}])
